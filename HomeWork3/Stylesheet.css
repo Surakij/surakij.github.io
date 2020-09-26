@@ -16,7 +16,7 @@ em {
 div#garden h2 {
   color: orange;
 }
-div#garden li{color: black; font-size: bold;}
+div#garden li{color: black; font-weight: bold;}
 #garden ol.fruits li {color: gray; }
 #garden ol.vegitable li {color:red;}
 
@@ -25,6 +25,6 @@ div#garden li{color: black; font-size: bold;}
 div#storage h2 {
   color: blue;
 }
-div#storage li{color: black; font-size: bold;}
+div#storage li{color: black; font-weight: bold;}
 #storage ol.fruits li {color: green;}
 #storage ol.vegitable li {color:red;}
