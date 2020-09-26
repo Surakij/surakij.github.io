@@ -1,30 +1,39 @@
 body {
-    background-color: rgb(255, 255, 255);
-  }
-  h1 {
-    color: orange;
-    text-align: right;
-  }
-  p::first-letter {
-    font-size: 300%;
-    color: red;
-  }
-  em {
-    background-color: green;
-    color: white;
-  }
-  div#garden h2 {
-    color: orange;
-  }
-  div#garden li{color: black; font-weight: bold;}
-  div#garden ol.fruits li {color: gray; }
-  div#garden ol.vegitable li {color:red;}
-  
-  
-  
-  div#storage h2 {
-    color: blue;
-  }
-  div#storage li{color: black; font-weight: bold;}
-  div#storage ol.fruits li {color: green;}
-  div#storage ol.vegitable li {color:red;}
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  color: orange;
+  text-align: right;
+}
+p::first-letter {
+  font-size: 300%;
+  color: red;
+}
+em {
+  background-color: green;
+  color: white;
+}
+
+ .plants-list ul {color: black; font-weight: bold;} 
+
+#garden h2 {
+  color: orange;
+}
+
+#garden  ol.fruits  {
+  color: gray; font-weight: normal;
+}
+#garden ol.vegitable {
+  color: red; font-weight: normal;
+}
+
+#storage h2 {
+  color: blue;
+}
+
+#storage ol.fruits {
+  color: green; font-weight: normal;
+}
+#storage ol.vegitable {
+  color: red; font-weight: normal;
+}
