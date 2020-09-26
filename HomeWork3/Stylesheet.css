@@ -16,15 +16,15 @@ em {
 div#garden h2 {
   color: orange;
 }
-div#garden li{color: black;}
-#garden ol.fruits li {color: gray;}
-#garden ol.fruits li {color:red;}
+div#garden li{color: black; font-size: bold;}
+#garden ol.fruits li {color: gray; }
+#garden ol.vegitable li {color:red;}
 
 
 
 div#storage h2 {
   color: blue;
 }
-div#storage li{color: black;}
+div#storage li{color: black; font-size: bold;}
 #storage ol.fruits li {color: green;}
-#storage ol.fruits li {color:red;}
+#storage ol.vegitable li {color:red;}
