@@ -13,18 +13,21 @@ em {
   background-color: green;
   color: white;
 }
-
- .plants-list ul {color: black; font-weight: bold;} 
+/* не работает first of type suka*/
+.plants-list ul li:first-of-type(1) {
+  color: black;
+  font-weight: bold;
+}
 
 #garden h2 {
   color: orange;
 }
 
-#garden  ol.fruits  {
-  color: gray; font-weight: normal;
+#garden ol.fruits {
+  color: gray;
 }
 #garden ol.vegitable {
-  color: red; font-weight: normal;
+  color: red;
 }
 
 #storage h2 {
@@ -32,8 +35,24 @@ em {
 }
 
 #storage ol.fruits {
-  color: green; font-weight: normal;
+  color: green;
 }
 #storage ol.vegitable {
-  color: red; font-weight: normal;
+  color: red;
+}
+
+.students-table thead {
+  text-align: center;
+  font-weight: bold;
+}
+
+table.students-table tbody td:nth-child(1) {
+  color: orange;
+  background: white;
+  text-align: left;
+}
+.students-table tbody td {
+  background: green;
+  color: white;
+  text-align: center;
 }
