@@ -13,3 +13,18 @@ em {
   background-color: green;
   color: white;
 }
+div#garden h2 {
+  color: orange;
+}
+div#garden li{color: black;}
+#garden ol.fruits li {color: gray;}
+#garden ol.fruits li {color:red;}
+
+
+
+div#storage h2 {
+  color: blue;
+}
+div#storage li{color: black;}
+#storage ol.fruits li {color: green;}
+#storage ol.fruits li {color:red;}
