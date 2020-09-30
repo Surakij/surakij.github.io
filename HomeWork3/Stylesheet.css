@@ -13,33 +13,15 @@ em {
   background-color: green;
   color: white;
 }
-/* не работает first of type suka*/
-.plants-list ul li:first-of-type(1) {
-  color: black;
-  font-weight: bold;
-}
+#garden h2 { color: orange;}
+#storage h2 { color: blue;}
+li {font-weight: normal;}
+ul > li {color: black; font-weight: bold;}
+ol.vegitable li {color: red;}
+div#garden ol.fruits {color: grey;}
+div#storage ol.fruits {color: green;}
 
-#garden h2 {
-  color: orange;
-}
 
-#garden ol.fruits {
-  color: gray;
-}
-#garden ol.vegitable {
-  color: red;
-}
-
-#storage h2 {
-  color: blue;
-}
-
-#storage ol.fruits {
-  color: green;
-}
-#storage ol.vegitable {
-  color: red;
-}
 
 .students-table thead {
   text-align: center;
