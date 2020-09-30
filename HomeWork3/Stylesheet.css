@@ -13,15 +13,28 @@ em {
   background-color: green;
   color: white;
 }
-#garden h2 { color: orange;}
-#storage h2 { color: blue;}
-li {font-weight: normal;}
-ul > li {color: black; font-weight: bold;}
-ol.vegitable li {color: red;}
-div#garden ol.fruits {color: grey;}
-div#storage ol.fruits {color: green;}
-
-
+#garden h2 {
+  color: orange;
+}
+#storage h2 {
+  color: blue;
+}
+li {
+  font-weight: normal;
+}
+ul > li {
+  color: black;
+  font-weight: bold;
+}
+ol.vegitable li {
+  color: red;
+}
+div#garden ol.fruits {
+  color: grey;
+}
+div#storage ol.fruits {
+  color: green;
+}
 
 .students-table thead {
   text-align: center;
