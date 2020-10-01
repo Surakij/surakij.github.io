@@ -1,0 +1,14 @@
+a[href^="http"] {
+  color: #f70;
+}
+a[target="_blank"] {position: relative;}
+a[target="_blank"]:after {
+  content: "\21F1";
+  position: absolute;
+  right: -15px;
+  transform: scaleX(-1);
+}
+
+a[href*="google"] {
+  color: #666;
+}
