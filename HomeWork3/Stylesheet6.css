@@ -27,6 +27,7 @@ label[for="blue"] {
   border-radius: 7px;
   text-align: center;
   transition: background 3s ease, color 1s ease;
+  display: inline;
 }
 #green:checked ~ .green {
   background: green;
@@ -34,6 +35,7 @@ label[for="blue"] {
   padding: 1px 5px;
   border-radius: 7px;
   transition: background 3s ease, color 1s ease;
+  display: inline;
 }
 #blue:checked ~ .blue {
   background: blue;
@@ -41,6 +43,7 @@ label[for="blue"] {
   padding: 1px 5px;
   border-radius: 7px;
   transition: background 3s ease, color 1s ease;
+  display: inline;
 }
 
 #red,
@@ -49,7 +52,7 @@ label[for="blue"] {
   display: none;
 }
 
-
+.blue, .green, .red {display: none;}
 
 #red:checked ~ label[for="red"] {
   color: red;
