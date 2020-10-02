@@ -52,7 +52,11 @@ label[for="blue"] {
   display: none;
 }
 
-.blue, .green, .red {display: none;}
+.blue,
+.green,
+.red {
+  display: none;
+}
 
 #red:checked ~ label[for="red"] {
   color: red;
