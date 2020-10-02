@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+}
+
+label {
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: underline;
+}
+label[for="red"] {
+  color: rgba(241, 99, 99, 0.966);
+  margin-right: 35px;
+}
+label[for="green"] {
+  color: rgba(0, 128, 0, 0.767);
+  margin-right: 35px;
+}
+label[for="blue"] {
+  color: rgba(0, 0, 255, 0.76);
+  margin-right: 35px;
+}
+
+#red:checked ~ .red {
+  background: red;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 7px;
+  text-align: center;
+  transition: background 3s ease, color 1s ease;
+}
+#green:checked ~ .green {
+  background: green;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 7px;
+  transition: background 3s ease, color 1s ease;
+}
+#blue:checked ~ .blue {
+  background: blue;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 7px;
+  transition: background 3s ease, color 1s ease;
+}
+
+#red,
+#green,
+#blue {
+  display: none;
+}
+
+#red:checked ~ label[for="red"] {
+  color: red;
+}
+#green:checked ~ label[for="green"] {
+  color: green;
+}
+#blue:checked ~ label[for="blue"] {
+  color: blue;
+}
