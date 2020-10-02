@@ -49,6 +49,8 @@ label[for="blue"] {
   display: none;
 }
 
+
+
 #red:checked ~ label[for="red"] {
   color: red;
 }
