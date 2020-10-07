@@ -1,50 +1,27 @@
-body,
-html {
+body, html{
   margin: 0;
   padding: 0;
-  font-family: "Economica";
+  font-family: 'Economica';
   text-transform: uppercase;
-  
 }
-
-.block1,
-.block2 {
-  -border: red solid 1px;
-  background: rgb(163, 75, 235);
+.block1{
+  background: rgb(150, 33, 228);
+  margin-top: 10px;
+  -width: 100%;
 }
-
-.block1 {
-  width: 100%;
-  height: 50px;
-  margin-top: 15px;
-  position: relative;
-}
-
-.block2 {
+nav.block2{
   width: 900px;
-  height: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  align-content: center;
-  text-align: center;
+  border: 1 px solid black ;
+  margin: 0 auto;
+  padding: 10px;
 }
-li {
-  height: 100%;
-  width: auto;
-  display: inline-block;
-  box-sizing: border-box;
+nav.block2 a{
+  -border: solid 1px black;
+  padding: 10px;
   color: white;
-  margin: auto;
-  -border: red solid 1px;
-  text-align: center;
-  padding: 11px;
-  ;
-font-size: 24px;
+  text-decoration: none;
 }
-li:hover {
-  background: rgb(223, 222, 222);
-  color: grey;
+nav.block2 a:hover{
+  background: rgb(216, 214, 214);
+  color: gray;
 }
