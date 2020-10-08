@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Economica";
+  text-transform: uppercase;
+}
+
+.wraper {
+  background: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.block1 {
+  width: 900px;
+  margin: 0 auto;
+}
+li {
+  -border: 1px solid gray;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 10%;
+  display: inline-block;
+  color: rgb(158, 66, 224);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+
+span {
+margin: 0 10px;
+}
+a:hover {
+  background: rgb(158, 66, 224);
+  color: rgb(235, 231, 231);
+}
+
+.first a,
+.prev a,
+.next a,
+.last a {
+  border: none;
+  width: auto;
+  box-sizing: border-box;
+  padding: 1% 10px 1% 5px;
+  margin-right: 10px;
+}
+.first a::before,
+.prev a::before {
+  content: "<<";
+  margin: 5px;
+}
+.next a::after,
+.last a::after {
+  content: ">>";
+  margin-left: 5px;
+}
