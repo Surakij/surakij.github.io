@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  list-style: none;
+  border: 1px solid;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+ul li {
+  border: 1px solid;
+  padding-left: 40px;
+  margin: 10px;
+  background-color: cyan;
+  line-height: 2em;
+}
+ul li::before {
+  content: url("/HTML/surakij.github.io/HomeWork5/image/check-40.png");
+  width: 20px;
+  height: 20px;
+}

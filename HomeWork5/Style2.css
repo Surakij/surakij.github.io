@@ -1,0 +1,109 @@
+body {
+  margin: 40px;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+.main {
+  width: 300px;
+  border: 7px solid#ee8129;
+  border-radius: 5px;
+  padding: 0;
+}
+.main header {
+  margin: -1px;
+  padding: 10px 0;
+  background-color: #ee8129;
+}
+.main header h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main h2 {
+  text-transform: uppercase;
+  -border: 1px solid green;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.main span {
+  -border: 1px solid red;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+.main span::before {
+  content: "$";
+  font-size: 20px;
+  vertical-align: 45px;
+  margin-right: 5px;
+}
+.main span::after {
+  content: "Monthly";
+  font-size: 20px;
+  vertical-align: -15px;
+}
+.main ul {
+  -border: 1px solid green;
+  margin: 0px auto;
+  padding: 20px 10px 0 10px;
+  list-style-type: none;
+}
+.main ul li {
+  -border: 1px solid red;
+  text-align: left;
+  padding: 5px 0;
+  margin: 1px 0;
+  background-color: #edf5fd;
+  color: #949597;
+}
+.main ul li:nth-child(odd) {
+  background-color: #f5f5f6;
+}
+
+.main ul li::before {
+  content: "";
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: url("image/check-40.png");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: top;
+  color: #97be09;
+  -border: 1px solid black;
+  margin: 0 10px 5px 30px;
+}
+
+.main button {
+  border: none;
+  box-shadow: 0 4px 0 #a85d1f;
+  margin: 20px 10px 30px 10px;
+  text-transform: uppercase;
+  background-color: #ee8129;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+ 
+}
+.main button a {
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: white;
+  -border: 1px solid;
+  line-height: 3em;
+  padding: 10px 88px;
+  font-size: 15px;
+  }
+  .main button:hover {
+    background-color:#dd9050 ;
+    transition: 0.4s;
+  }
+.main button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #a85d1f;
+  transition: 0.1s;
+}
