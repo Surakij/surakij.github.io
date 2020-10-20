@@ -1,0 +1,328 @@
+body {
+  margin: 100px;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+body h1 {
+  text-transform: uppercase;
+}
+.first, .second, .third {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.first {
+  width: 300px;
+  border: 2px solid#e8eaec;
+  border-radius: 5px;
+  padding: 0;
+
+}
+.first header {
+  margin: -1px;
+  padding: 10px 0;
+  background-color: #37c2d3;
+  border-radius: 4px 4px 0 0;
+}
+.first header h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.first h2 {
+  text-transform: uppercase;
+  -border: 1px solid green;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.first span {
+  -border: 1px solid red;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+.first span::before {
+  content: "$";
+  font-size: 20px;
+  vertical-align: 45px;
+  margin-right: 5px;
+}
+.first span::after {
+  content: "Monthly";
+  font-size: 20px;
+  vertical-align: -15px;
+}
+.first ul {
+  -border: 1px solid green;
+  margin: 0px auto;
+  padding: 20px 10px 0 10px;
+  list-style-type: none;
+}
+.first ul li {
+  -border: 1px solid red;
+  text-align: left;
+  padding: 5px 0;
+  margin: 1px 0;
+  background-color: #edf5fd;
+  color: #949597;
+}
+.first ul li:nth-child(odd) {
+  background-color: #f5f5f6;
+}
+
+.first ul li::before {
+  content: "";
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: url("../HomeWork5/image/check-40.png");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: top;
+  -border: 1px solid black;
+  margin: 0 10px 5px 30px;
+}
+
+.first button {
+  border: none;
+  box-shadow: 0 4px 0 #16436a;
+  margin: 20px 10px 30px 10px;
+  text-transform: uppercase;
+  background-color: #3371a6;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.first button a {
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: white;
+  -border: 1px solid;
+  line-height: 3em;
+  padding: 10px 75px;
+  font-size: 15px;
+}
+
+.first button:hover {
+  background-color: #408dd1;
+  transition: 0.4s;
+}
+.first button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #16436a;
+  transition: 0.1s;
+}
+
+.second {
+  width: 300px;
+  border: 7px solid#ee8129;
+  border-radius: 5px;
+  padding: 0;
+  margin: 20px -5px 20px -5px;
+}
+.second header {
+  margin: -1px;
+  padding: 10px 0;
+  background-color: #ee8129;
+}
+.second header h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.second h2 {
+  text-transform: uppercase;
+  -border: 1px solid green;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.second span {
+  -border: 1px solid red;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+.second span::before {
+  content: "$";
+  font-size: 20px;
+  vertical-align: 45px;
+  margin-right: 5px;
+}
+.second span::after {
+  content: "Monthly";
+  font-size: 20px;
+  vertical-align: -15px;
+}
+.second ul {
+  -border: 1px solid green;
+  margin: 0px auto;
+  padding: 20px 10px 0 10px;
+  list-style-type: none;
+}
+.second ul li {
+  -border: 1px solid red;
+  text-align: left;
+  padding: 5px 0;
+  margin: 1px 0;
+  background-color: #edf5fd;
+  color: #949597;
+}
+.second ul li:nth-child(odd) {
+  background-color: #f5f5f6;
+}
+
+.second ul li::before {
+  content: "";
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: url("../HomeWork5/image/check-40.png");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: top;
+  -border: 1px solid black;
+  margin: 0 10px 5px 30px;
+}
+
+.second button {
+  border: none;
+  box-shadow: 0 4px 0 #a85d1f;
+  margin: 20px 10px 30px 10px;
+  text-transform: uppercase;
+  background-color: #ee8129;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.second button a {
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: white;
+  -border: 1px solid;
+  line-height: 3em;
+  padding: 10px 75px;
+  font-size: 15px;
+}
+
+.second button:hover {
+  background-color: #dd9050;
+  transition: 0.4s;
+}
+.second button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #a85d1f;
+  transition: 0.1s;
+}
+
+.third {
+  width: 300px;
+  border: 2px solid#e8eaec;
+  border-radius: 5px;
+  padding: 0;
+}
+.third header {
+  margin: -1px;
+  padding: 10px 0;
+  background-color: #1cb79a;
+  border-radius: 4px 4px 0 0;
+}
+.third header h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.third h2 {
+  text-transform: uppercase;
+  -border: 1px solid green;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.third span {
+  -border: 1px solid red;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+.third span::before {
+  content: "$";
+  font-size: 20px;
+  vertical-align: 45px;
+  margin-right: 5px;
+}
+.third span::after {
+  content: "Monthly";
+  font-size: 20px;
+  vertical-align: -15px;
+}
+.third ul {
+  -border: 1px solid green;
+  margin: 0px auto;
+  padding: 20px 10px 0 10px;
+  list-style-type: none;
+}
+.third ul li {
+  -border: 1px solid red;
+  text-align: left;
+  padding: 5px 0;
+  margin: 1px 0;
+  background-color: #edf5fd;
+  color: #949597;
+}
+.third ul li:nth-child(odd) {
+  background-color: #f5f5f6;
+}
+
+.third ul li::before {
+  content: "";
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: url("../HomeWork5/image/check-40.png");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: top;
+  -border: 1px solid black;
+  margin: 0 10px 5px 30px;
+}
+
+.third button {
+  border: none;
+  box-shadow: 0 4px 0 #16436a;
+  margin: 20px 10px 30px 10px;
+  text-transform: uppercase;
+  background-color: #3371a6;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.third button a {
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: white;
+  -border: 1px solid;
+  line-height: 3em;
+  padding: 10px 75px;
+  font-size: 15px;
+}
+
+.third button:hover {
+  background-color: #408dd1;
+  transition: 0.4s;
+}
+.third button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #16436a;
+  transition: 0.1s;
+}
