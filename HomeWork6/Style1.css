@@ -1,14 +1,29 @@
 body {
-  margin: 100px;
+  width: 100%;
+  margin: 0;
   padding: 0;
   font-family: "Dosis", sans-serif;
 }
-body h1 {
+.cover {
+  width: 910px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  
+ 
+}
+.cover h1 {
   text-transform: uppercase;
+  -border: black 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  
+  
 }
 .first, .second, .third {
-  display: inline-block;
-  margin: 0 auto;
+  position: absolute;
+
+
 }
 
 .first {
@@ -16,6 +31,8 @@ body h1 {
   border: 2px solid#e8eaec;
   border-radius: 5px;
   padding: 0;
+top: 145px;
+left: 0%;
 
 }
 .first header {
@@ -103,7 +120,7 @@ body h1 {
   color: white;
   -border: 1px solid;
   line-height: 3em;
-  padding: 10px 75px;
+  padding: 10px 87px;
   font-size: 15px;
 }
 
@@ -122,17 +139,23 @@ body h1 {
   border: 7px solid#ee8129;
   border-radius: 5px;
   padding: 0;
-  margin: 20px -5px 20px -5px;
+  -margin: 0 -5px 0 -5px;
+top: 130px;
+left: 300px;
+z-index: 2;
+ 
 }
 .second header {
   margin: -1px;
   padding: 10px 0;
   background-color: #ee8129;
+  
 }
 .second header h1 {
   color: white;
   text-transform: uppercase;
   text-align: center;
+  line-height: 1.6em;
 }
 
 .second h2 {
@@ -194,7 +217,7 @@ body h1 {
 .second button {
   border: none;
   box-shadow: 0 4px 0 #a85d1f;
-  margin: 20px 10px 30px 10px;
+  margin: 20px 10px 40px 10px;
   text-transform: uppercase;
   background-color: #ee8129;
   text-align: center;
@@ -208,7 +231,7 @@ body h1 {
   color: white;
   -border: 1px solid;
   line-height: 3em;
-  padding: 10px 75px;
+  padding: 10px 87px;
   font-size: 15px;
 }
 
@@ -227,6 +250,9 @@ body h1 {
   border: 2px solid#e8eaec;
   border-radius: 5px;
   padding: 0;
+  top: 145px;
+  right: 0;
+  
 }
 .third header {
   margin: -1px;
@@ -313,7 +339,7 @@ body h1 {
   color: white;
   -border: 1px solid;
   line-height: 3em;
-  padding: 10px 75px;
+  padding: 10px 87px;
   font-size: 15px;
 }
 
