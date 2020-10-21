@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+}
+div.commments {
+  border: black 1px solid;
+  width: 100%;
+  background-image: url("imageHM6/background.png");
+}
+div.commments > h1 {
+  text-transform: uppercase;
+  color: blue;
+  border: black 1px solid;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 45px;
+  padding: 0;
+}
+div.commments h1 span.fisrt_word {
+  color: orange;
+}
+div.clients {
+  -border: rgb(240, 8, 8) 1px solid;
+  width: calc(507px * 2);
+  margin: 0 auto;
+  padding-top: 10px;
+  overflow: hidden;
+}
+div.costem1,
+div.costem2 {
+  -border: rgb(221, 10, 10) 1px solid;
+  float: left;
+  padding: 0;
+  margin: 0 1px 60px 1px;
+  position: relative;
+}
+
+div.costem1 img,
+div.costem1 .window1 {
+  float: left;
+  -border: red 1px solid;
+  margin-right: 30px;
+}
+
+div.costem1 .window1 {
+  -border: red 1px solid;
+  width: 330px;
+  background-color: white;
+  padding: 10px;
+  margin-right: 40px;
+}
+div.costem2 img,
+div.costem2 .window2 {
+  float: left;
+  margin-top: 0;
+  margin-right: 30px;
+  -border: red 1px solid;
+}
+div.costem2 .window2 {
+  -border: red 1px solid;
+  width: 330px;
+  background-color: white;
+  padding: 10px;
+  margin-right: 0;
+}
+.window1 h4,
+.window2 h4 {
+  border-bottom: 1px dashed black;
+  margin: 0 0 5px 0;
+  padding-bottom: 5px;
+  color: blue;
+  font-style: italic;
+}
+.window1 h4::before,
+.window2 h4::before {
+  content: "-";
+  margin-right: 5px;
+}
+.window1 h4::after,
+.window2 h4::after {
+  content: "Customer";
+  float: right;
+}
+.window1 p,
+.window2 p {
+  -border: 1px black solid;
+  margin: 0;
+}
+
+.tringle {
+  width: 0;
+  height: 0x;
+  border-top: 15px solid transparent;
+  border-right: 20px solid white;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  top: 35px;
+  left: 115px;
+}
