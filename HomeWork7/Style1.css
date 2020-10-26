@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Commissioner", sans-serif;
+  color: rgba(85, 84, 84, 0.336);
+}
+
+.sivtsev {
+  width: 300px;
+
+  margin: 0 auto;
+  padding: 10px;
+}
+.sivtsev p {
+  margin: 0 0 25px 0;
+  padding: 0;
+  line-height: 1.3em;
+  text-shadow: rgb(85, 84, 84) 0 0 5px;
+}
+.sight1 {
+  font-size: 70px;
+  word-spacing: 2.38em;
+}
+.sight2 {
+  font-size: 64px;
+  word-spacing: 0.94em;
+}
+.sight3 {
+  font-size: 58px;
+  word-spacing: 0.335em;
+}
+.sight4 {
+  font-size: 52px;
+  word-spacing: 0.25em;
+}
+.sight5 {
+  font-size: 46px;
+  word-spacing: 0.38em;
+}
+.sight6 {
+  font-size: 40px;
+  word-spacing: 0.34em;
+}
+.sight7 {
+  font-size: 34px;
+  word-spacing: 0.6em;
+}
+.sight8 {
+  font-size: 28px;
+  word-spacing: 0.62em;
+  color: rgba(85, 84, 84, 0.144);
+}
+.sight9 {
+  font-size: 22px;
+  word-spacing: 1.1em;
+  color: rgba(85, 84, 84, 0.144);
+}
+.sight10 {
+  font-size: 16px;
+  word-spacing: 1.55em;
+  color: rgba(85, 84, 84, 0.144);
+}
+.uline {
+  border-top: solid 1px rgba(255, 0, 0, 0.425);
+  padding-bottom: 25px;
+}
+.sight15 {
+  font-size: 12px;
+  word-spacing: 2.42em;
+  color: rgba(85, 84, 84, 0.068);
+}
+p.sight20 {
+  font-size: 10px;
+  word-spacing: 3.1em;
+  margin: 0 0 5px 0;
+  color: rgba(85, 84, 84, 0.034);
+}
