@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url("/HTML/surakij.github.io/HomeWork7/imge_background/Background3.png")
+    no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 590px;
+  -border: #ffffff solid;
+  margin: 0 auto;
+  text-align: center;
+}
+.first_line {
+  margin: 5px 0 5px 0;
+}
+.second_line {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  line-height: 1.1em;
+}
+.third_line {
+  width: 445px;
+  font-size: small;
+  font-style: italic;
+  margin: 10px auto;
+  text-align: justify;
+}
+.wrap button {
+  margin: 20px 0 10px 0;
+  background: none;
+  color: #ffffff;
+  border-color: #ffffff5e;
+  border-radius: 3px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
