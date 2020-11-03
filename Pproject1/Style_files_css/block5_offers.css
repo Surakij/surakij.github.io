@@ -1,0 +1,347 @@
+#block5 {
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+#block5 .cover {
+  width: 910px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+#block5 .cover > h1 {
+  text-transform: uppercase;
+  -border: black 1px solid;
+  text-align: center;
+  vertical-align: middle;
+}
+#block5 .first,
+#block5 .second,
+#block5 .third {
+  position: absolute;
+}
+
+#block5 .first {
+  width: 300px;
+  border: 2px solid#e8eaec;
+  border-radius: 5px;
+  padding: 0;
+  top: 145px;
+  left: 0%;
+}
+#block5 .first header {
+  margin: -1px;
+  padding: 10px 0;
+  background-color: #37c2d3;
+  border-radius: 4px 4px 0 0;
+}
+#block5 .first header h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#block5 .first h2 {
+  text-transform: uppercase;
+  -border: 1px solid green;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#block5 .first span {
+  -border: 1px solid red;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+#block5 .first span::before {
+  content: "$";
+  font-size: 20px;
+  vertical-align: 45px;
+  margin-right: 5px;
+}
+#block5 .first span::after {
+  content: "Monthly";
+  font-size: 20px;
+  vertical-align: -15px;
+}
+#block5 .first ul {
+  -border: 1px solid green;
+  margin: 0px auto;
+  padding: 20px 10px 0 10px;
+  list-style-type: none;
+}
+#block5 .first ul li {
+  -border: 1px solid red;
+  text-align: left;
+  padding: 5px 0;
+  margin: 1px 0;
+  background-color: #edf5fd;
+  color: #949597;
+}
+#block5 .first ul li:nth-child(odd) {
+  background-color: #f5f5f6;
+}
+
+#block5 .first ul li::before {
+  content: "";
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: url("/HTML/surakij.github.io/Pproject1/Images/check-40.png");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: top;
+  -border: 1px solid black;
+  margin: 0 10px 5px 30px;
+}
+
+#block5 .first button {
+  border: none;
+  box-shadow: 0 4px 0 #16436a;
+  margin: 20px 10px 30px 10px;
+  text-transform: uppercase;
+  background-color: #3371a6;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+#block5 .first button a {
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: white;
+  -border: 1px solid;
+  line-height: 3em;
+  padding: 10px 87px;
+  font-size: 15px;
+}
+
+#block5 .first button:hover {
+  background-color: #408dd1;
+  transition: 0.4s;
+}
+#block5 .first button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #16436a;
+  transition: 0.1s;
+}
+
+#block5 .second {
+  width: 300px;
+  border: 7px solid#ee8129;
+  border-radius: 5px;
+  padding: 0;
+  -margin: 0 -5px 0 -5px;
+  top: 130px;
+  left: 300px;
+  z-index: 2;
+}
+#block5 .second header {
+  margin: -1px;
+  padding: 10px 0;
+  background-color: #ee8129;
+}
+#block5 .second header h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+#block5 .second h2 {
+  text-transform: uppercase;
+  -border: 1px solid green;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#block5 .second span {
+  -border: 1px solid red;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+#block5 .second span::before {
+  content: "$";
+  font-size: 20px;
+  vertical-align: 45px;
+  margin-right: 5px;
+}
+#block5 .second span::after {
+  content: "Monthly";
+  font-size: 20px;
+  vertical-align: -15px;
+}
+#block5 .second ul {
+  -border: 1px solid green;
+  margin: 0px auto;
+  padding: 20px 10px 0 10px;
+  list-style-type: none;
+}
+#block5 .second ul li {
+  -border: 1px solid red;
+  text-align: left;
+  padding: 5px 0;
+  margin: 1px 0;
+  background-color: #edf5fd;
+  color: #949597;
+}
+#block5 .second ul li:nth-child(odd) {
+  background-color: #f5f5f6;
+}
+
+#block5 .second ul li::before {
+  content: "";
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: url("/HTML/surakij.github.io/Pproject1/Images/check-40.png");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: top;
+  -border: 1px solid black;
+  margin: 0 10px 5px 30px;
+}
+
+#block5 .second button {
+  border: none;
+  box-shadow: 0 4px 0 #a85d1f;
+  margin: 20px 10px 40px 10px;
+  text-transform: uppercase;
+  background-color: #ee8129;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+#block5 .second button a {
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: white;
+  -border: 1px solid;
+  line-height: 3em;
+  padding: 10px 87px;
+  font-size: 15px;
+}
+
+#block5 .second button:hover {
+  background-color: #dd9050;
+  transition: 0.4s;
+}
+#block5 .second button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #a85d1f;
+  transition: 0.1s;
+}
+
+#block5 .third {
+  width: 300px;
+  border: 2px solid#e8eaec;
+  border-radius: 5px;
+  padding: 0;
+  top: 145px;
+  right: 0;
+}
+#block5 .third header {
+  margin: -1px;
+  padding: 10px 0;
+  background-color: #1cb79a;
+  border-radius: 4px 4px 0 0;
+}
+#block5 .third header h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#block5 .third h2 {
+  text-transform: uppercase;
+  -border: 1px solid green;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#block5 .third span {
+  -border: 1px solid red;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+#block5 .third span::before {
+  content: "$";
+  font-size: 20px;
+  vertical-align: 45px;
+  margin-right: 5px;
+}
+#block5 .third span::after {
+  content: "Monthly";
+  font-size: 20px;
+  vertical-align: -15px;
+}
+#block5 .third ul {
+  -border: 1px solid green;
+  margin: 0px auto;
+  padding: 20px 10px 0 10px;
+  list-style-type: none;
+}
+#block5 .third ul li {
+  -border: 1px solid red;
+  text-align: left;
+  padding: 5px 0;
+  margin: 1px 0;
+  background-color: #edf5fd;
+  color: #949597;
+}
+#block5 .third ul li:nth-child(odd) {
+  background-color: #f5f5f6;
+}
+
+#block5 .third ul li::before {
+  content: "";
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: url("/HTML/surakij.github.io/Pproject1/Images/check-40.png");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: top;
+  -border: 1px solid black;
+  margin: 0 10px 5px 30px;
+}
+
+#block5 .third button {
+  border: none;
+  box-shadow: 0 4px 0 #16436a;
+  margin: 20px 10px 30px 10px;
+  text-transform: uppercase;
+  background-color: #3371a6;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+#block5 .third button a {
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: white;
+  -border: 1px solid;
+  line-height: 3em;
+  padding: 10px 87px;
+  font-size: 15px;
+}
+
+#block5 .third button:hover {
+  background-color: #408dd1;
+  transition: 0.4s;
+}
+#block5 .third button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #16436a;
+  transition: 0.1s;
+}
