@@ -1,0 +1,27 @@
+form {
+  width: 60%;
+  background-color: rgb(255, 190, 70);
+  background: linear-gradient(to bottom, #faca82, #f1ad47);
+  padding: 5px 100px 25px 5px;
+  position: relative;
+  clip-path: polygon(98% 100%, 100% 50%, 100% 50%, 98% 0%,0% 0%, 0% 100%);
+}
+input[type="text"] {
+  width: 100%;
+}
+input[type="submit"] {
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  cursor: pointer;
+}
+span {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+span a {
+  text-decoration: none;
+  color: black;
+  border-bottom: black dotted 0.5px;
+}
