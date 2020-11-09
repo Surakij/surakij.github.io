@@ -3,11 +3,13 @@
   color: #ffffff;
   margin: 0;
   padding: 0;
-  background: url("/HTML/surakij.github.io/Pproject1/Images/background_block4.png")
+  background: url("/HTML/surakij.github.io/Test/Pproject1/Images/background_block4.png")
     no-repeat;
   background-size: 100%;
   position: relative;
-  width: 1500px;
+  width: 1480px;
+  height: 550px;
+  -border: red solid;
 }
 #block4 .wraper {
   width: 700px;
@@ -50,6 +52,7 @@
   position: absolute;
   top: 0;
   left: -25px;
+  font-size: 12px;
 }
 #block4 .wraper ul li:nth-last-of-type(2) {
   color: #2f4c65;
