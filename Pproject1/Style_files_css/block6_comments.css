@@ -6,7 +6,7 @@
 #block6 div.commments {
   -border: black 1px solid;
   width: 100%;
-  background-image: url("/HTML/surakij.github.io/Pproject1/Images/background.png");
+  background-image: url("https://surakij.github.io/Pproject1/Images/background.png");
 }
 #block6 div.commments > h1 {
   text-transform: uppercase;
