@@ -16,7 +16,7 @@
   margin: 0;
   padding: 85px 0 0px 0;
   width: 680px;
- }
+}
 #block4 .wraper h1 {
   text-transform: uppercase;
   color: #ee8129;
@@ -37,7 +37,6 @@
   margin: 0 0 0 0;
   list-style: none;
   padding: 0 0 75px 0;
-  outline: blue solid;
 }
 #block4 .wraper ul li {
   line-height: 1.8em;
