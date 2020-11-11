@@ -1,0 +1,25 @@
+#block8 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+#block8 footer {
+  width: 1490px;
+  margin: 0;
+  padding: 0;
+  background-color: #3070a8;
+  vertical-align: top;
+}
+#block8 footer .wrap {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+#block8 footer .wrap a {
+  text-decoration: none;
+  color: #000000;
+}
