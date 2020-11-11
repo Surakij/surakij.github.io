@@ -1,0 +1,90 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#block7 {
+  width: 1495px;
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+}
+#block7 .item {
+  display: inline-block;
+  width: 49.8%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+#block7 .contacts {
+  padding: 0 0 0 150px;
+  margin: 0;
+}
+#block7 .contacts ul {
+  width: 425px;
+  list-style: none;
+}
+#block7 .contacts .addresses {
+  font-size: 20px;
+  color: #666666;
+  line-height: 1.4em;
+  margin: 40px 0 30px 0;
+  padding: 0;
+}
+#block7 .contacts .addresses .iner {
+  margin: 0 0 20px 0;
+  position: relative;
+  padding-left: 60px;
+}
+#block7 .contacts .addresses .iner:nth-child(1)::before {
+  content: url("/HTML/surakij.github.io/Pproject1/Images/map-marker.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#block7 .contacts .addresses .iner:nth-child(2)::before {
+  content: url("/HTML/surakij.github.io/Pproject1/Images/phone_icon.png");
+  position: absolute;
+  top: -2px;
+  left: 0;
+}
+#block7 .contacts .addresses .iner:nth-child(3)::before {
+  content: url("/HTML/surakij.github.io/Pproject1/Images/envelop_icon.png");
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+#block7 .contacts .icons {
+  padding: 0;
+}
+#block7 .contacts .icons .icon_items {
+  display: inline-block;
+  margin-right: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #4967a9;
+  position: relative;
+}
+#block7 .contacts .icons .icon_items:nth-child(2) {
+  background-color: #1ab2e8;
+}
+#block7 .contacts .icons .icon_items .fab {
+  font-size: 25px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#block7 .map {
+  padding: 0;
+  margin: 0;
+}
+#block7 .map img {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 -5px 0;
+}
+
