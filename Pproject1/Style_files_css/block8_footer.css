@@ -1,13 +1,13 @@
 #block8 {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 1480px;
   font-family: "Abel", sans-serif;
   font-size: 20px;
   color: #ffffff;
 }
 #block8 footer {
-    width: 1480px;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #3070a8;
