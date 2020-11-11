@@ -14,43 +14,44 @@
 }
 #block4 .wraper_inner {
   margin: 0;
-  padding: 85px 0 75px 0;
+  padding: 85px 0 0px 0;
   width: 680px;
-}
+ }
 #block4 .wraper h1 {
   text-transform: uppercase;
   color: #ee8129;
   font-size: 24px;
   line-height: 1.6em;
-  margin: 0 0 10px 0;
-  text-align: center;
+  margin: 0 0 20px 0;
 }
 #block4 .wraper h4 {
   font-style: italic;
   font-size: 20px;
   font-weight: normal;
-  margin: 0 0 35px 10px;
+  margin: 0 0 40px 0px;
   padding: 0;
 }
 #block4 .wraper ul {
   color: #5f6061;
   width: 630px;
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
   list-style: none;
-  padding: 0;
+  padding: 0 0 75px 0;
+  outline: blue solid;
 }
 #block4 .wraper ul li {
   line-height: 1.8em;
-  margin-bottom: 15px;
+  margin: 0 0 20px 0;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
+  padding: 0 0 0 40px;
 }
 #block4 .wraper ul li::before {
   content: "\2B24";
   position: absolute;
   top: 0;
-  left: -25px;
+  left: 20px;
   font-size: 12px;
 }
 #block4 .wraper ul li:nth-last-of-type(2) {
