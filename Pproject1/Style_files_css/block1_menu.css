@@ -7,19 +7,16 @@
 }
 
 #block1 .main {
-  width: 100%;
-  -border: 1px solid;
-
+  width: 1023px;
+  margin: 0 auto;
   background-color: #ffffff;
 }
 #block1 .wrap {
   width: 1100px;
-  -border: 1px solid;
   overflow: hidden;
-} 
+}
 #block1 .menu {
   float: left;
-  -border: 1px solid;
   width: 700px;
   padding: 0;
   margin-left: 50px;
@@ -28,17 +25,14 @@
   list-style: none;
   text-align: center;
   margin-top: 0;
-  -border: 1px solid;
 }
 #block1 .menu ul li {
   display: inline-block;
-  -border: 1px solid;
   padding: 21px 0 0 0;
   margin: 0;
 }
 #block1 .menu ul li a {
   text-decoration: none;
-  -border: 1px solid;
   color: #989898;
   font-weight: normal;
   padding: 20px 10px;

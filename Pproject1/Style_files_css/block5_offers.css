@@ -4,18 +4,15 @@
   margin: 0;
   padding: 0;
   font-family: "Dosis", sans-serif;
-  -border: solid red 1px;
 }
 #block5 .cover {
-  width: 910px;
+  width: 1023px;
   margin: 0 auto;
   padding: 0;
   position: relative;
-  -border: solid red 1px;
 }
 #block5 .cover > h1 {
   text-transform: uppercase;
-  -border: black 1px solid;
   text-align: center;
   vertical-align: middle;
 }
@@ -43,13 +40,11 @@
 
 #block5 .cover .first h2 {
   text-transform: uppercase;
-  -border: 1px solid green;
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
 }
 #block5 .cover .first span {
-  -border: 1px solid red;
   display: block;
   font-size: 80px;
   text-align: center;
@@ -67,13 +62,11 @@
   vertical-align: -15px;
 }
 #block5 .cover .first ul {
-  -border: 1px solid green;
   margin: 0px auto;
   padding: 20px 10px 0 10px;
   list-style-type: none;
 }
 #block5 .cover .first ul li {
-  -border: 1px solid red;
   text-align: left;
   padding: 5px 0;
   margin: 1px 0;
@@ -93,7 +86,6 @@
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: top;
-  -border: 1px solid black;
   margin: 0 10px 5px 30px;
 }
 
@@ -112,7 +104,6 @@
   font-family: "Dosis", sans-serif;
   text-decoration: none;
   color: white;
-  -border: 1px solid;
   line-height: 3em;
   padding: 10px 87px;
   font-size: 15px;
@@ -133,7 +124,6 @@
   border: 7px solid#ee8129;
   border-radius: 5px;
   padding: 0;
-  -margin: 0 -5px 0 -5px;
   top: 130px;
   left: 300px;
   z-index: 2;
@@ -153,13 +143,11 @@
 
 #block5 .cover .second h2 {
   text-transform: uppercase;
-  -border: 1px solid green;
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
 }
 #block5 .cover .second span {
-  -border: 1px solid red;
   display: block;
   font-size: 80px;
   text-align: center;
@@ -177,13 +165,11 @@
   vertical-align: -15px;
 }
 #block5 .cover .second ul {
-  -border: 1px solid green;
   margin: 0px auto;
   padding: 20px 10px 0 10px;
   list-style-type: none;
 }
 #block5 .cover .second ul li {
-  -border: 1px solid red;
   text-align: left;
   padding: 5px 0;
   margin: 1px 0;
@@ -203,7 +189,6 @@
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: top;
-  -border: 1px solid black;
   margin: 0 10px 5px 30px;
 }
 
@@ -222,7 +207,6 @@
   font-family: "Dosis", sans-serif;
   text-decoration: none;
   color: white;
-  -border: 1px solid;
   line-height: 3em;
   padding: 10px 87px;
   font-size: 15px;
@@ -261,13 +245,11 @@
 
 #block5 .cover .third h2 {
   text-transform: uppercase;
-  -border: 1px solid green;
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
 }
 #block5 .cover .third span {
-  -border: 1px solid red;
   display: block;
   font-size: 80px;
   text-align: center;
@@ -285,13 +267,11 @@
   vertical-align: -15px;
 }
 #block5 .cover .third ul {
-  -border: 1px solid green;
   margin: 0px auto;
   padding: 20px 10px 0 10px;
   list-style-type: none;
 }
 #block5 .cover .third ul li {
-  -border: 1px solid red;
   text-align: left;
   padding: 5px 0;
   margin: 1px 0;
@@ -311,7 +291,6 @@
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: top;
-  -border: 1px solid black;
   margin: 0 10px 5px 30px;
 }
 
@@ -330,7 +309,6 @@
   font-family: "Dosis", sans-serif;
   text-decoration: none;
   color: white;
-  -border: 1px solid;
   line-height: 3em;
   padding: 10px 87px;
   font-size: 15px;

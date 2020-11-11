@@ -5,14 +5,12 @@
   width: 1480px;
 }
 #block6 div.commments {
-  -border: black 1px solid;
-  width: 100%;
+  width: 1023px;
   background-image: url("https://surakij.github.io/Pproject1/Images/background.png");
 }
 #block6 div.commments > h1 {
   text-transform: uppercase;
   color: blue;
-  -border: black 1px solid;
   margin: 40px auto;
   text-align: center;
   font-size: 45px;
@@ -30,7 +28,6 @@
 }
 #block6 div.costem1,
 #block6 div.costem2 {
-  -border: rgb(221, 10, 10) 1px solid;
   float: left;
   padding: 0;
   margin: 0 1px 60px 1px;
@@ -40,12 +37,10 @@
 #block6 div.costem1 img,
 #block6 div.costem1 .window1 {
   float: left;
-  -border: red 1px solid;
   margin-right: 30px;
 }
 
 #block6 div.costem1 .window1 {
-  -border: red 1px solid;
   width: 330px;
   background-color: white;
   padding: 10px;
@@ -56,10 +51,8 @@
   float: left;
   margin-top: 0;
   margin-right: 30px;
-  -border: red 1px solid;
 }
 #block6 div.costem2 .window2 {
-  -border: red 1px solid;
   width: 330px;
   background-color: white;
   padding: 10px;
@@ -85,7 +78,6 @@
 }
 #block6 .window1 p,
 #block6 .window2 p {
-  -border: 1px black solid;
   margin: 0;
 }
 

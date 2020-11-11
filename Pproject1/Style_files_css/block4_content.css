@@ -9,20 +9,18 @@
   position: relative;
   width: 1480px;
   height: 550px;
-  -border: red solid;
 }
 #block4 .wraper {
-  width: 700px;
-  -border: red solid;
+  width: 1023px;
   position: absolute;
   top: 80px;
   left: 150px;
+  margin: 0 auto;
 }
 #block4 .wraper h1 {
   text-transform: uppercase;
   color: #ee8129;
   font-size: 26px;
-  -border: red solid;
   line-height: 1.6em;
   margin: 0 0 10px 0;
   text-align: center;
@@ -35,7 +33,6 @@
 }
 #block4 .wraper ul {
   color: #5f6061;
-  -border: red solid;
   width: 630px;
   margin: 0 0 10px 0;
   list-style: none;
