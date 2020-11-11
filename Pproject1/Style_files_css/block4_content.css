@@ -6,21 +6,21 @@
   background: url("https://surakij.github.io/Pproject1/Images/background_block4.png")
     no-repeat;
   background-size: 100%;
-  position: relative;
   width: 1480px;
-  height: 550px;
 }
 #block4 .wraper {
   width: 1023px;
-  position: absolute;
-  top: 80px;
-  left: 150px;
   margin: 0 auto;
+}
+#block4 .wraper_inner {
+  margin: 0;
+  padding: 85px 0 75px 0;
+  width: 680px;
 }
 #block4 .wraper h1 {
   text-transform: uppercase;
   color: #ee8129;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.6em;
   margin: 0 0 10px 0;
   text-align: center;

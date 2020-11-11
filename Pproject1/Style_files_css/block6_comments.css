@@ -20,7 +20,6 @@
   color: orange;
 }
 #block6 div.clients {
-  -border: rgb(240, 8, 8) 1px solid;
   width: calc(507px * 2);
   margin: 0 auto;
   padding-top: 10px;
