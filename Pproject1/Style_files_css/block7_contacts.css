@@ -38,19 +38,19 @@ body {
   padding-left: 60px;
 }
 #block7 .contacts .addresses .iner:nth-child(1)::before {
-  content: url("/HTML/surakij.github.io/Pproject1/Images/map-marker.png");
+  content: url("https://surakij.github.io/Pproject1/Images/map-marker.png");
   position: absolute;
   top: 0;
   left: 0;
 }
 #block7 .contacts .addresses .iner:nth-child(2)::before {
-  content: url("/HTML/surakij.github.io/Pproject1/Images/phone_icon.png");
+  content: url("https://surakij.github.io/Pproject1/Images/phone_icon.png");
   position: absolute;
   top: -2px;
   left: 0;
 }
 #block7 .contacts .addresses .iner:nth-child(3)::before {
-  content: url("/HTML/surakij.github.io/Pproject1/Images/envelop_icon.png");
+  content: url("https://surakij.github.io/Pproject1/Images/envelop_icon.png");
   position: absolute;
   top: 3px;
   left: 0;
