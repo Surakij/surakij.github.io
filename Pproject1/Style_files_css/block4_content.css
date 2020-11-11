@@ -30,12 +30,14 @@
   font-size: 20px;
   font-weight: normal;
   margin: 0 0 35px 10px;
+  padding: 0;
 }
 #block4 .wraper ul {
   color: #5f6061;
   width: 630px;
   margin: 0 0 10px 0;
   list-style: none;
+  padding: 0;
 }
 #block4 .wraper ul li {
   line-height: 1.8em;
