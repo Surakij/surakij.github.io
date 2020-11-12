@@ -3,90 +3,83 @@
   padding: 0;
   font-family: "Abel", sans-serif;
   width: 1480px;
+  background: url("https://surakij.github.io/Pproject1/Images/background.png")
+    no-repeat;
+  background-size: cover;
 }
 #block6 div.commments {
   width: 1023px;
-  background-image: url("https://surakij.github.io/Pproject1/Images/background.png");
+  margin: 0 auto;
+  padding: 0 0 60px 0;
 }
 #block6 div.commments > h1 {
   text-transform: uppercase;
   color: blue;
-  margin: 40px auto;
+  margin: 0 auto;
   text-align: center;
   font-size: 45px;
-  padding: 0;
+  padding: 55px 0 50px 0;
 }
-#block6 div.commments h1 span.fisrt_word {
-  color: orange;
+#block6 .fisrt_word {
+  color: #ee8129;
+  font-weight: normal;
 }
-#block6 div.clients {
-  width: calc(507px * 2);
-  margin: 0 auto;
-  padding-top: 10px;
-  overflow: hidden;
+#block6 .clients {
 }
-#block6 div.costem1,
-#block6 div.costem2 {
-  float: left;
-  padding: 0;
-  margin: 0 1px 60px 1px;
+#block6 .item {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(49.7% - 20px);
+  position: relative;
+  font-weight: normal;
+  font-size: 15px;
+}
+#block6 .costem1 {
+  margin-right: 40px;
+}
+#block6 .item img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+#block6 .item .window {
+  background-color: white;
+  padding: 11px;
+  margin: 0 0 0 130px;
   position: relative;
 }
 
-#block6 div.costem1 img,
-#block6 div.costem1 .window1 {
-  float: left;
-  margin-right: 30px;
-}
-
-#block6 div.costem1 .window1 {
-  width: 330px;
-  background-color: white;
-  padding: 10px;
-  margin-right: 40px;
-}
-#block6 div.costem2 img,
-#block6 div.costem2 .window2 {
-  float: left;
-  margin-top: 0;
-  margin-right: 30px;
-}
-#block6 div.costem2 .window2 {
-  width: 330px;
-  background-color: white;
-  padding: 10px;
-  margin-right: 0;
-}
-#block6 .window1 h4,
-#block6 .window2 h4 {
+#block6 .window h4 {
   border-bottom: 1px dashed black;
   margin: 0 0 5px 0;
   padding-bottom: 5px;
   color: blue;
   font-style: italic;
 }
-#block6 .window1 h4::before,
-#block6 .window2 h4::before {
+#block6 .window h4::before {
   content: "-";
   margin-right: 5px;
 }
-#block6 .window1 h4::after,
-#block6 .window2 h4::after {
+#block6 .window h4::after {
   content: "Customer";
   float: right;
 }
-#block6 .window1 p,
-#block6 .window2 p {
+#block6 .window p {
   margin: 0;
+  padding: 0;
+  text-align: justify;
+  line-height: 1.2em;
+  color: #8d8d8d;
 }
 
-#block6 .tringle {
+#block6 .item .window::before {
+  content: "";
   width: 0;
-  height: 0x;
+  height: 0;
   border-top: 15px solid transparent;
   border-right: 20px solid white;
   border-bottom: 15px solid transparent;
   position: absolute;
   top: 35px;
-  left: 115px;
+  left: -15px;
 }
