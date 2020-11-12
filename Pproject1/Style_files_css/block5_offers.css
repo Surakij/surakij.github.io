@@ -1,6 +1,5 @@
 #block5 {
   width: 1480px;
-  height: 700px;
   margin: 0;
   padding: 0;
   font-family: "Dosis", sans-serif;
@@ -8,318 +7,167 @@
 #block5 .cover {
   width: 1023px;
   margin: 0 auto;
-  padding: 0;
+  padding: 65px 0 60px 0;
   position: relative;
 }
 #block5 .cover > h1 {
   text-transform: uppercase;
   text-align: center;
-  vertical-align: middle;
-}
-
-#block5 .cover .first {
-  width: 300px;
-  border: 2px solid#e8eaec;
-  border-radius: 5px;
+  margin: 0 0 60px 0;
   padding: 0;
-  top: 145px;
-  left: 0%;
-  position: absolute;
 }
-#block5 .cover .first header {
-  margin: -1px;
-  padding: 10px 0;
-  background-color: #37c2d3;
-  border-radius: 4px 4px 0 0;
-}
-#block5 .cover .first header h1 {
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-#block5 .cover .first h2 {
-  text-transform: uppercase;
-  text-align: center;
+#block5 .cover .wraper_offers {
+  width: 892px;
   margin: 0 auto;
-  padding-top: 20px;
 }
-#block5 .cover .first span {
-  display: block;
-  font-size: 80px;
-  text-align: center;
-  padding-top: 20px;
-}
-#block5 .cover .first span::before {
-  content: "$";
-  font-size: 20px;
-  vertical-align: 45px;
-  margin-right: 5px;
-}
-#block5 .cover .first span::after {
-  content: "Monthly";
-  font-size: 20px;
-  vertical-align: -15px;
-}
-#block5 .cover .first ul {
-  margin: 0px auto;
-  padding: 20px 10px 0 10px;
-  list-style-type: none;
-}
-#block5 .cover .first ul li {
-  text-align: left;
-  padding: 5px 0;
-  margin: 1px 0;
-  background-color: #edf5fd;
-  color: #949597;
-}
-#block5 .cover .first ul li:nth-child(odd) {
-  background-color: #f5f5f6;
-}
-
-#block5 .cover .first ul li::before {
-  content: "";
-  float: left;
-  width: 24px;
-  height: 24px;
-  background: url("https://surakij.github.io/Pproject1/Images/check-40.png");
-  background-repeat: no-repeat;
-  background-size: 18px 18px;
-  background-position: top;
-  margin: 0 10px 5px 30px;
-}
-
-#block5 .cover .first button {
-  border: none;
-  box-shadow: 0 4px 0 #16436a;
-  margin: 20px 10px 30px 10px;
-  text-transform: uppercase;
-  background-color: #3371a6;
-  text-align: center;
+#block5 .cover .wraper_offers .item {
+  display: inline-block;
+  padding: 0;
   border-radius: 5px;
-  outline: none;
-  cursor: pointer;
+  width: 290px;
 }
-#block5 .cover .first button a {
-  font-family: "Dosis", sans-serif;
-  text-decoration: none;
-  color: white;
-  line-height: 3em;
-  padding: 10px 87px;
-  font-size: 15px;
+#block5 .cover .wraper_offers .first {
+  border: 2px solid#e8eaec;
 }
-
-#block5 .cover .first button:hover {
-  background-color: #408dd1;
-  transition: 0.4s;
-}
-#block5 .cover .first button:active {
-  transform: translateY(2px);
-  box-shadow: 0 1px 0 #16436a;
-  transition: 0.1s;
-}
-
-#block5 .cover .second {
+#block5 .cover .wraper_offers .second {
   width: 300px;
   border: 7px solid#ee8129;
-  border-radius: 5px;
-  padding: 0;
-  top: 130px;
-  left: 300px;
   z-index: 2;
-  position: absolute;
+  position: relative;
+  left: -10px;
 }
-#block5 .cover .second header {
-  margin: -1px;
-  padding: 10px 0;
-  background-color: #ee8129;
-}
-#block5 .cover .second header h1 {
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1.6em;
-}
-
-#block5 .cover .second h2 {
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 20px;
-}
-#block5 .cover .second span {
-  display: block;
-  font-size: 80px;
-  text-align: center;
-  padding-top: 20px;
-}
-#block5 .cover .second span::before {
-  content: "$";
-  font-size: 20px;
-  vertical-align: 45px;
-  margin-right: 5px;
-}
-#block5 .cover .second span::after {
-  content: "Monthly";
-  font-size: 20px;
-  vertical-align: -15px;
-}
-#block5 .cover .second ul {
-  margin: 0px auto;
-  padding: 20px 10px 0 10px;
-  list-style-type: none;
-}
-#block5 .cover .second ul li {
-  text-align: left;
-  padding: 5px 0;
-  margin: 1px 0;
-  background-color: #edf5fd;
-  color: #949597;
-}
-#block5 .cover .second ul li:nth-child(odd) {
-  background-color: #f5f5f6;
-}
-
-#block5 .cover .second ul li::before {
-  content: "";
-  float: left;
-  width: 24px;
-  height: 24px;
-  background: url("https://surakij.github.io/Pproject1/Images/check-40.png");
-  background-repeat: no-repeat;
-  background-size: 18px 18px;
-  background-position: top;
-  margin: 0 10px 5px 30px;
-}
-
-#block5 .cover .second button {
-  border: none;
-  box-shadow: 0 4px 0 #a85d1f;
-  margin: 20px 10px 40px 10px;
-  text-transform: uppercase;
-  background-color: #ee8129;
-  text-align: center;
-  border-radius: 5px;
-  outline: none;
-  cursor: pointer;
-}
-#block5 .cover .second button a {
-  font-family: "Dosis", sans-serif;
-  text-decoration: none;
-  color: white;
-  line-height: 3em;
-  padding: 10px 87px;
-  font-size: 15px;
-}
-
-#block5 .cover .second button:hover {
-  background-color: #dd9050;
-  transition: 0.4s;
-}
-#block5 .cover .second button:active {
-  transform: translateY(2px);
-  box-shadow: 0 1px 0 #a85d1f;
-  transition: 0.1s;
-}
-
-#block5 .cover .third {
-  width: 300px;
+#block5 .cover .wraper_offers .third {
   border: 2px solid#e8eaec;
-  border-radius: 5px;
-  padding: 0;
-  top: 145px;
-  right: 0;
-  position: absolute;
+  margin-left: -19px ;
 }
-#block5 .cover .third header {
-  margin: -1px;
-  padding: 10px 0;
-  background-color: #1cb79a;
+#block5 .cover .item header {
+  padding: 0;
   border-radius: 4px 4px 0 0;
 }
-#block5 .cover .third header h1 {
-  color: white;
+#block5 .cover .first header {
+   background-color: #37c2d3;
+}
+#block5 .cover .second header {
+  margin: -3px;
+  background-color: #ee8129;
+}
+#block5 .cover .third header {
+  background-color: #1cb79a;
+}
+#block5 .cover .wraper_offers .item {
+  padding: 0 0 25px 0;
+}
+#block5 .cover .wraper_offers .item:nth-child(2) {
+  padding: 0 0 35px 0;
+}
+#block5 .cover .wraper_offers .item header h1 {
+  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1em;
+  -outline: black solid;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+#block5 .cover .wraper_offers .second header h1 {
+  padding: 28px 0;
 }
 
-#block5 .cover .third h2 {
+#block5 .cover .wraper_offers .item h2 {
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 24px;
 }
-#block5 .cover .third span {
+#block5 .cover .wraper_offers .item span {
   display: block;
   font-size: 80px;
+  font-weight: 800;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  margin: 0 auto;
 }
-#block5 .cover .third span::before {
+#block5 .cover .wraper_offers .item span::before {
   content: "$";
   font-size: 20px;
   vertical-align: 45px;
   margin-right: 5px;
 }
-#block5 .cover .third span::after {
+#block5 .cover .wraper_offers .item span::after {
   content: "Monthly";
   font-size: 20px;
+  font-weight: 600;
   vertical-align: -15px;
 }
-#block5 .cover .third ul {
+#block5 .cover .wraper_offers .item ul {
+  width: 259px;
   margin: 0px auto;
-  padding: 20px 10px 0 10px;
-  list-style-type: none;
+  padding: 40px 0 18px 0;
+  list-style: none;
 }
-#block5 .cover .third ul li {
-  text-align: left;
-  padding: 5px 0;
+#block5 .cover .wraper_offers .item ul li {
+  padding: 0;
   margin: 1px 0;
   background-color: #edf5fd;
   color: #949597;
+  font-weight: 600;
+  line-height: 2.5em;
 }
-#block5 .cover .third ul li:nth-child(odd) {
+#block5 .cover .wraper_offers .item ul li:nth-child(odd) {
   background-color: #f5f5f6;
 }
 
-#block5 .cover .third ul li::before {
+#block5 .cover .wraper_offers .item ul li::before {
   content: "";
   float: left;
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   background: url("https://surakij.github.io/Pproject1/Images/check-40.png");
   background-repeat: no-repeat;
   background-size: 18px 18px;
-  background-position: top;
-  margin: 0 10px 5px 30px;
+  margin: 5px 17px 0 33px;
+  overflow: hidden;
 }
 
-#block5 .cover .third button {
+#block5 .cover .wraper_offers .item button {
   border: none;
+  display: block;
   box-shadow: 0 4px 0 #16436a;
-  margin: 20px 10px 30px 10px;
+  margin: 0 auto;
   text-transform: uppercase;
   background-color: #3371a6;
   text-align: center;
   border-radius: 5px;
   outline: none;
   cursor: pointer;
+  width: 255px;
 }
-#block5 .cover .third button a {
+#block5 .cover .wraper_offers .second button {
+  background-color: #ee8129;
+  box-shadow: 0 4px 0 #a85d1f;
+}
+#block5 .cover .wraper_offers .item button a {
   font-family: "Dosis", sans-serif;
   text-decoration: none;
   color: white;
   line-height: 3em;
-  padding: 10px 87px;
   font-size: 15px;
 }
 
-#block5 .cover .third button:hover {
+#block5 .cover .wraper_offers .item button:hover {
   background-color: #408dd1;
   transition: 0.4s;
 }
-#block5 .cover .third button:active {
+#block5 .cover .wraper_offers .second button:hover {
+  background-color: #dd9050;
+}
+#block5 .cover .wraper_offers .item button:active {
   transform: translateY(2px);
   box-shadow: 0 1px 0 #16436a;
   transition: 0.1s;
+}
+#block5 .cover .wraper_offers .second button:active {
+  box-shadow: 0 1px 0 #a85d1f;
 }
