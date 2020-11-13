@@ -5,62 +5,50 @@
   text-transform: uppercase;
   width: 1480px;
 }
-
 #block1 .main {
   width: 1023px;
   margin: 0 auto;
   background-color: #ffffff;
 }
-#block1 .wrap {
-  width: 1100px;
-  overflow: hidden;
+#block1 .main .item {
+  display: inline-block;
 }
 #block1 .menu {
-  float: left;
-  width: 700px;
-  padding: 0;
-  margin-left: 50px;
+  width: 580px;
 }
 #block1 .menu ul {
   list-style: none;
-  text-align: center;
-  margin-top: 0;
+  font-size: 15px;
+  margin: 0;
 }
 #block1 .menu ul li {
   display: inline-block;
-  padding: 21px 0 0 0;
-  margin: 0;
+  margin: 0 0 30px 0;
 }
 #block1 .menu ul li a {
   text-decoration: none;
   color: #989898;
   font-weight: normal;
-  padding: 20px 10px;
-  margin: 0;
+  padding: 0 11px 0 10px;
 }
 #block1 .menu ul li:hover a {
   color: #3070a8;
-  font-weight: 600;
+  font-weight: normal;
   border-bottom: #3070a8 5px solid;
+  padding: 0 11px 30px 10px;
 }
-
 #block1 .logo {
-  float: left;
-  width: 200px;
-  -border: 1px solid;
+  width: 289px;
   font-family: "Varela Round", sans-serif;
-  padding-left: 10%;
-  line-height: 1em;
+  margin: 0 149px 0 0;
 }
 #block1 .logo p {
   color: #3070a8;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 900;
 }
-
 #block1 .logo .first_word {
-  -border: 1px solid;
   text-transform: capitalize;
   color: orange;
-  font-weight: 500;
+  font-weight: normal;
 }
