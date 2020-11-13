@@ -1,4 +1,5 @@
 #block2 {
+  margin-top: -2px;
   padding: 0;
   width: 1480px;
   color: #ffffff;
@@ -28,7 +29,7 @@
   padding-bottom: 35px;
 }
 #block2 .third {
-  width: 640px;
+  width: 650px;
   font-size: 19px;
   font-style: italic;
   font-weight: 600;
