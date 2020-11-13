@@ -1,5 +1,5 @@
 #block2 {
-  margin-top: -1px;
+  margin-top: -2px;
   padding: 0;
   width: 1480px;
   color: #ffffff;
@@ -35,7 +35,6 @@
   font-weight: 600;
   text-align: justify;
   padding-bottom: 35px;
-  outline: red solid;
 }
 #block2 .wrap2 button {
   background: none;
