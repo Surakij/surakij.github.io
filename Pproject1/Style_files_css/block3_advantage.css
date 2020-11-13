@@ -2,41 +2,42 @@
   margin: 0;
   padding: 0;
   font-family: "Archivo", sans-serif;
-  /*font-family: 'Questrial', sans-serif;*/
   background-color: #ffffff;
-  -border: red 1px solid;
   width: 1480px;
 }
 #block3 .wraper {
-  -border: black 1px solid;
   width: 1023px;
-  margin: 0px auto;
+  margin: 0 auto;
+  padding: 60px 0 70px 0;
   text-align: center;
-  padding: 20px;
 }
 #block3 .wraper h1 {
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 25px;
+  line-height: 0.8em;
   font-weight: bold;
   color: #41525c;
-  padding-bottom: 20px;
+  padding-bottom: 75px;
+  margin: 0;
 }
 #block3 .wraper .block {
-  width: 280px;
-  -border: black 1px solid;
+  width: calc((1023px / 3) - 40px);
   display: inline-block;
+  margin: 0;
+}
+#block3 .wraper .alert {
+  margin: 0 53px;
 }
 #block3 .wraper .block .round {
-  width: 120px;
-  height: 120px;
+  width: 145px;
+  height: 145px;
   border-radius: 50%;
   background: #3070a8;
-  margin: 10px auto;
+  margin: 0 auto;
   position: relative;
-  
 }
 #block3 .wraper .block .round i {
-  font-size: 50px;
+  font-size: 60px;
   position: absolute;
   left: 0;
   right: 0;
@@ -62,12 +63,14 @@
   color: #3070a8;
   font-family: "Questrial", sans-serif;
   font-weight: 400;
+  font-size: 30px;
+  margin: 30px 0;
 }
 #block3 .wraper .block p {
   color: #a7a7a7;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 300;
-  width: 230px;
-  margin: 10px auto;
   line-height: 1.6em;
+  margin: 0;
+  padding: 0;
 }
