@@ -9,6 +9,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 .main h1 {
   margin: 60px 0 0 0;
@@ -24,32 +25,37 @@ body {
   max-width: 1195px;
   min-width: 395px;
   padding: 15px;
+  position: relative;
 }
-.main .cover .image {
+.image {
   width: 365px;
   height: 260px;
   display: inline-block;
   vertical-align: top;
   margin: 15px;
+  position: relative;
+  box-sizing: border-box;
 }
-.main .cover .image .inner_cover {
+.inner_cover {
   width: 100%;
   height: 100%;
   display: none;
   position: relative;
 }
-.main .cover .image:hover .inner_cover {
+.image:hover .inner_cover {
   background: #3aadf4cb;
   display: block;
+  position: absolute;
+  top: 0;
 }
-.main .cover .image .inner_cover .inner_cover2 {
+.inner_cover2 {
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
   transform: translate(0, -50%);
 }
-.main .cover .image .inner_cover .inner_cover2 .inner_item {
+.inner_item {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -57,7 +63,7 @@ body {
   border-radius: 3px;
   position: relative;
 }
-.main .cover .image .inner_cover .inner_cover2 .inner_item:nth-child(1) {
+.inner_item:nth-child(1) {
   margin-right: 10px;
 }
 
@@ -74,4 +80,83 @@ body {
   bottom: 0;
   top: 0;
   right: 60%;
+}
+
+.hide_show_image,
+.hide_input_murks {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .hide_show_image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff79;
+  display: block;
+  margin: 0;
+  padding-top: 170px;
+}
+input[type="checkbox"]:checked ~ .hide_show_image .wraper {
+  max-width: 1195px;
+  margin: 0 auto;
+  position: relative;
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .hide_show_image .wraper img {
+  border: 3px gray solid;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="checkbox"]:checked ~ .hide_show_image .wraper .icon_close {
+  position: absolute;
+  top: -20px;
+  right: 10px;
+}
+input[type="checkbox"]:checked
+  ~ .hide_show_image
+  .wraper
+  .icon_close
+  .item_icon_close {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: relative;
+}
+input[type="checkbox"]:checked
+  ~ .hide_show_image
+  .wraper
+  .icon_close
+  .item_icon_close::before {
+  content: "\2716";
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+input[type="checkbox"]:checked ~ .cover {
+  display: none;
+}
+#hide_show_image_01:checked ~ .hide_show_image .wraper_Image_01 {
+  display: block;
+}
+#hide_show_image_02:checked ~ .hide_show_image .wraper_Image_02 {
+  display: block;
+}
+#hide_show_image_03:checked ~ .hide_show_image .wraper_Image_03 {
+  display: block;
+}
+#hide_show_image_04:checked ~ .hide_show_image .wraper_Image_04 {
+  display: block;
+}
+
+#hide_show_image_05:checked ~ .hide_show_image .wraper_Image_05 {
+  display: block;
+}
+#hide_show_image_06:checked ~ .hide_show_image .wraper_Image_06 {
+  display: block;
 }
