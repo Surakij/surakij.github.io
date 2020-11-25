@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 39px 114px;
+}
+.wraper {
+  width: 975px;
+  margin: 0 auto;
+  padding: 23px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
+  position: relative;
+}
+#header {
+  width: 100%;
+  overflow: hidden;
+}
+.header_items {
+  display: inline-block;
+  vertical-align: top;
+}
+.header_logo {
+  padding: 9px 0 0 9px;
+  width: 25%;
+}
+.upper_logo {
+  font-family: "Oleo Script", cursive;
+  font-size: 40px;
+  margin: 0;
+  line-height: 1em;
+}
+.lower_logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: #999999;
+  margin: 0;
+}
+.header_menu {
+  float: right;
+}
+.page_menu_items {
+  list-style: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Oxygen", sans-serif;
+  font-size: 14px;
+}
+.page_menu_items > li {
+  display: inline-block;
+  margin: 0 0 0 32px;
+  box-sizing: border-box;
+  vertical-align: bottom;
+}
+.page_menu_items .apply_now {
+  background-color: #ffc552;
+  border: solid #efaf3f 1px;
+  border-radius: 2px;
+}
+.page_menu_items .apply_now a {
+  color: #ffffff;
+  text-shadow: 0 -1px 1px #eda535;
+}
+.page_menu_items > li a {
+  text-decoration: none;
+  color: #666666;
+  padding: 8px;
+  display: block;
+}
+
+.submenu_item_blog {
+  width: 166px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  position: absolute;
+  top: 74px;
+  right: 95px;
+  background-color: #ffffff;
+  font-size: 12px;
+  text-align: left;
+  padding: 10px 7px;
+  display: none;
+}
+.submenu_item_blog > li {
+  display: block;
+  padding: 9px 0;
+  border-bottom: solid 1px #e5e5e5;
+}
+.submenu_item_blog > li:last-child {
+  border-bottom: none;
+}
+.submenu_item_blog > li a {
+  padding: 7px 6px;
+  margin: 0;
+  display: block;
+  border-radius: 4px;
+  color: #666666;
+}
+.page_menu_items > li:hover > a {
+  color: #000000;
+}
+.page_menu_items > li:hover .submenu_item_blog {
+  display: block;
+}
+.page_menu_items > li:hover .submenu_item_blog > li {
+  color: #666666;
+}
+.page_menu_items .apply_now:hover > a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.submenu_item_blog > li:hover a {
+  background-color: #f3f3f3;
+}
