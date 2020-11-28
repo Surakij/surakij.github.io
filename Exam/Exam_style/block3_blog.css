@@ -1,0 +1,135 @@
+#blog {
+  width: 100%;
+  margin: 0 0 31px 0;
+}
+.blog_headline {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #222222;
+  font-weight: normal;
+  margin: 0 0 19px 0;
+}
+.blog_content_wraper {
+  width: 100%;
+}
+.blog_content_items {
+  display: inline-block;
+  width: 301px;
+  vertical-align: top;
+  padding: 0;
+}
+.blog_content_items:nth-child(2) {
+  margin: 0 17px;
+}
+.inner_content_items {
+  display: block;
+  margin: 0;
+}
+.blog_image_cover {
+  border: 1px solid #f1f1f1;
+  position: relative;
+}
+.blog_image_cover img {
+  border: solid 2px #ffffff;
+  margin: 0 0 -4px 0;
+}
+.blog_image_cover:hover .blog_image_icons_wraper {
+  display: block;
+}
+.blog_image_icons_wraper {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 295px;
+  height: 141px;
+  background-color: #faf8f810;
+  display: none;
+}
+.blog_image_icons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translate(0, -50%);
+  text-align: center;
+}
+.blog_image_icon_items {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #f3f3f3;
+  border-radius: 100%;
+  position: relative;
+  vertical-align: middle;
+  box-shadow: #4b4b4b9a 0 0 0 5px ;
+}
+.blog_image_icon_items::after {
+  content: "";
+  width: 11px;
+  height: 9px;
+  background-image: url("/HTML/surakij.github.io/Exam/Exam_images/image_icons.png");
+  border-image-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -4.5px 0 0 -5.5px;
+}
+.blog_image_icon_type_2 {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  margin: 0 17px;
+  background-color: #f3f3f3;
+  border-radius: 100%;
+  position: relative;
+  vertical-align: middle;
+  box-shadow: #4b4b4b9a 0 0 0 8px ;
+}
+.blog_image_icon_type_2 i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translate(0, -50%);
+  width: 19px;
+  height: 19px;
+  font-size: 21px;
+  color: #4b4b4b;
+}
+
+.blog_image_icon_type_3::after {
+  background-position: -11px 0;
+}
+
+.blog_image_identifier {
+  background-color: #f3f3f3;
+  padding: 11px 10px;
+}
+.blog_image_name {
+  text-transform: capitalize;
+  font-family: "Oxygen", sans-serif;
+  color: #666666;
+  font-size: 14px;
+  margin: 0;
+}
+.blog_image_short_desription {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  margin: 7px 0 0 0;
+  color: #999999;
+}
+.blog_image_desription {
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 0 10px;
+  margin: 17px 0 0 0;
+  line-height: 1.5em;
+}
+.blog_image_desription p {
+  margin: 0;
+  text-align: justify;
+}

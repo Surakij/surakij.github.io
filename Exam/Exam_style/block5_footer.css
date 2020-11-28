@@ -1,0 +1,78 @@
+#footer {
+  width: 100%;
+  margin: 21px 0 5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+.footer_blocks {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer_blocks h3 {
+  color: #ffad19;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 22px;
+}
+.footer_blocks_list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.footer_blocks_list li {
+    border-bottom: 1px solid #e5e5e5;
+}
+.footer_blocks_list li:last-child {
+    border-bottom: none;
+}
+.footer_blocks_list li a {
+    text-decoration: none;
+    color: #666666;
+    padding: 11px 0 6px 0;
+    display: block;
+}
+.footer_block_1 {
+    width: 244px;
+}
+.footer_block_1 .footer_blocks_list {
+    padding-right: 64px;
+}
+
+.footer_block_2 {
+    width: 225px;
+}
+.footer_block_2 .footer_blocks_list {
+    padding-right: 45px;
+}
+
+.footer_block_3 {
+    width: 469px;
+}
+.footer_block_3 .footer_blocks_list li:first-child {
+    padding-bottom: 16px;
+}
+.footer_block_3 .footer_blocks_list li:nth-child(2) {
+    padding-bottom: 11px;
+}
+.footer_block_3 .footer_blocks_list h5 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+.footer_block_3 .footer_blocks_list p {
+    margin: 0;
+    font-size: 11px;
+    color: #b0b0b0;
+}
+.footer_block_3 .footer_blocks_list li {
+    position: relative;
+    padding-left: 33px;
+}
+.footer_block_3 .footer_blocks_list li::before {
+    content: url('/HTML/surakij.github.io/Exam/Exam_images/footer_menu_icon.png');
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
