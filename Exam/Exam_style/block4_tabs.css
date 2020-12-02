@@ -76,7 +76,7 @@
   position: relative;
 }
 .tabs_content_item_list li::before {
-  content: url("/HTML/surakij.github.io/Exam/Exam_images/tabs_list_icon.png");
+  content: url("https://surakij.github.io/Exam/Exam_images/tabs_list_icon.png");
   position: absolute;
   left: -10px;
 }
