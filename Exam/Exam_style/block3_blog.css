@@ -69,7 +69,7 @@
   content: "";
   width: 11px;
   height: 9px;
-  background-image: url("/HTML/surakij.github.io/Exam/Exam_images/image_icons.png");
+  background-image: url("https://surakij.github.io/Exam/Exam_images/image_icons.png");
   border-image-repeat: no-repeat;
   position: absolute;
   top: 50%;
