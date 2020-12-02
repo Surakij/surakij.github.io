@@ -71,7 +71,7 @@
     padding-left: 33px;
 }
 .footer_block_3 .footer_blocks_list li::before {
-    content: url('/HTML/surakij.github.io/Exam/Exam_images/footer_menu_icon.png');
+    content: url('https://surakij.github.io/Exam/Exam_images/footer_menu_icon.png');
     position: absolute;
     left: 0;
     top: 10px;
